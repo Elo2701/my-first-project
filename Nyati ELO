@@ -1,14 +1,38 @@
 # my-first-project
 The role of IDEs in programming in the Java ecosystem
 
-The Java Ecosystem The three most basic parts of the Java ecosystem are the Java Virtual Machine (JVM), the Java Runtime Environment (JRE), and the Java Development Kit (JDK), which are stock parts that are supplied by Java implementations. A representation of the Java ecosystem Every Java program runs under the control of a JVM. Every time you run a Java program, an instance of JVM is created. It provides security and isolation for the Java program that is running. It prevents the running of the code from clashing with other programs within the system. It works like a non-strict sandbox, making it safe to serve resources, even in hostile environments such as the internet, but allowing interoperability with the computer on which it runs. In simpler terms, JVM acts as a computer inside a computer, which is meant specifically for running Java programs. The ecosystem of Java includes a very large participation of the community, which is one of the reasons for the popularity of the platform.
+The Java Ecosystem The three most basic parts of the Java ecosystem are the Java Virtual Machine (JVM),
+the Java Runtime Environment (JRE), and the Java Development Kit (JDK), which are stock parts that are 
+supplied by Java implementations. A representation of the Java ecosystem Every Java program runs under 
+the control of a JVM. Every time you run a Java program, an instance of JVM is created. It provides security
+and isolation for the Java program that is running. It prevents the running of the code from clashing with
+other programs within the system. It works like a non-strict sandbox, making it safe to serve resources, even
+in hostile environments such as the internet, but allowing interoperability with the computer on which it runs
+. In simpler terms, JVM acts as a computer inside a computer, which is meant specifically for running Java programs.
+The ecosystem of Java includes a very large participation of the community, which is one of the reasons for the 
+popularity of the platform.
 
-To a new developer, the world of Java can be a very confusing place. While Java itself is a relatively straightforward programming language to learn, there are a number of associated technologies that you really should know
-Java-ThumbnailFirst is Eclipse. Possibly the most successful open source IDE ever, Eclipse is a highly useful development tool that integrates with the Java Compiler to highlight compilation errors in the background. Yes you can build code without it, just like you can cut your lawn with scissors. But its main purpose is as the IDE in other open source systems, such as Dart and Scala and as the home to projects, including a complete implementation of the Git version control system.Alternatives to Eclipse include Netbeans which is open source and IntelliJ Idea which comes in a free and paid version.
+To a new developer, the world of Java can be a very confusing place. While Java itself is a relatively straightforward
+programming language to learn, there are a number of associated technologies that you really should know
+Java-ThumbnailFirst is Eclipse. Possibly the most successful open source IDE ever, Eclipse is a highly useful development
+tool that integrates with the Java Compiler to highlight compilation errors in the background. Yes you can build code
+without it, just like you can cut your lawn with scissors. But its main purpose is as the IDE in other open source systems, 
+such as Dart and Scala and as the home to projects, including a complete implementation of the Git version control system.
+Alternatives to Eclipse include Netbeans which is open source and IntelliJ Idea which comes in a free and paid version.
 
-Maven is a tool to help you manage your software. If you’ve worked in enterprise software, you could describe it as an enterprise build tool. It provides a standardized way to build, test, package, document and deploy projects.
-An alternative is Ant, which can build and run software but needs explicit instructions to say where the source code is. Ant should be used with Ivy, which is a dependency manager. Ivy lets you specify the dependencies (other Java libraries, tools etc). It is particularly good where the dependencies you are using depend on other dependencies.
+Maven is a tool to help you manage your software. If you’ve worked in enterprise software, you could describe it as an 
+enterprise build tool. It provides a standardized way to build, test, package, document and deploy projects.
+An alternative is Ant, which can build and run software but needs explicit instructions to say where the source code is.
+Ant should be used with Ivy, which is a dependency manager. Ivy lets you specify the dependencies (other Java libraries,
+tools etc). It is particularly good where the dependencies you are using depend on other dependencies.
 
-The problem that Maven, or Ant + Ivy solve is that your software will likely make use of other software stored in repositories, like the Maven 2 repository, which holds over 63,000 unique artifacts. A maven artifact is usually a .jar file (basically a zip file holding Java byte code, resources and property files), a .war file (Web application files) or possibly a .ear file containing EJB files. These get deployed to a Maven repository.
-The Spring Framework, now over ten years old, is another technology to know. It was created to simplify enterprise Java development, to be used instead of the J2EE model, and is now the leading Java server framework with millions of users. It provides modules for dependency injection, AOP, inversion of control, and support for Hibernate and other open source frameworks. The Spring Framework has a family of Spring open source frameworks, including Spring Security, Spring Integration, Spring Batch, Spring Data, Spring Web Flow, and many more. If you needed to access MongoDB or Neo4J, you had use Spring Data.
+The problem that Maven, or Ant + Ivy solve is that your software will likely make use of other software stored in repositories,
+like the Maven 2 repository, which holds over 63,000 unique artifacts. A maven artifact is usually a .jar file (basically a zip
+file holding Java byte code, resources and property files), a .war file (Web application files) or possibly a .ear file containing
+EJB files. These get deployed to a Maven repository.
+The Spring Framework, now over ten years old, is another technology to know. It was created to simplify enterprise Java development,
+to be used instead of the J2EE model, and is now the leading Java server framework with millions of users. It provides modules for 
+dependency injection, AOP, inversion of control, and support for Hibernate and other open source frameworks. The Spring Framework has
+a family of Spring open source frameworks, including Spring Security, Spring Integration, Spring Batch, Spring Data, Spring Web Flow, 
+and many more. If you needed to access MongoDB or Neo4J, you had use Spring Data.
 
